@@ -1,0 +1,1162 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "0.0",
+        "title": "api.behance.net",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "http:\/\/api.behance.net\/v2"
+    ],
+    "paths": {
+        "\/users\/michaelklein548a\/following": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "client_id",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Following"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/users\/dtraytel\/appreciations": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Following"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/users": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "client_id",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "q",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Following"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/projects\/{projectsId}\/comments": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "client_id",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "projectsId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Following"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/users\/michaelklein548a\/followers": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "client_id",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Following"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/collections\/{collectionsId}": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "api_key",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "collectionsId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Following"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/users\/cfaydi\/stats": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "client_id",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Following"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/users\/matiascorea\/wips": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "client_id",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Following"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/users\/matiascorea\/work_experience": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "client_id",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Following"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/users\/matiascorea\/projects": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "client_id",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Following"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/collections\/{collectionsId}\/projects": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "api_key",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "collectionsId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Following"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/users\/matiascorea": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "client_id",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Following"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/users\/matiascorea\/collections": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "api_key",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Following"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/projects\/{projectsId}": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "projectsId",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "api_key",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Following"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Projects": {
+                "type": "object"
+            },
+            "Project": {
+                "type": "object",
+                "properties": {
+                    "modified_on": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "mature_content": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "created_on": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "published_on": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "fields": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "Stat": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "Owner": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "Cover": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "projects": {
+                        "description": "",
+                        "type": "array"
+                    }
+                }
+            },
+            "fields": {
+                "type": "array"
+            },
+            "Stat": {
+                "type": "object",
+                "properties": {
+                    "comments": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "appreciations": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "views": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "followers": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "items": {
+                        "description": "",
+                        "type": "integer"
+                    }
+                }
+            },
+            "Owner": {
+                "type": "object",
+                "properties": {
+                    "129052": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "168816": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "country": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "occupation": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "last_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "display_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "created_on": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "company": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "fields": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "first_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "username": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "Image": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "Cover": {
+                "type": "object",
+                "properties": {
+                    "115": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "202": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "230": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "404": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "projects": {
+                "type": "array"
+            },
+            "129052": {
+                "type": "object",
+                "properties": {
+                    "country": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "occupation": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "last_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "display_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "created_on": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "company": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "fields": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "first_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "username": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "Image": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "168816": {
+                "type": "object",
+                "properties": {
+                    "country": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "occupation": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "last_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "display_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "created_on": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "company": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "fields": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "first_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "username": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "Image": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "Image": {
+                "type": "object",
+                "properties": {
+                    "32": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "50": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "78": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "115": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "129": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "138": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Fields": {
+                "type": "object"
+            },
+            "Field": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "fields": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "popular": {
+                        "description": "",
+                        "type": "array"
+                    }
+                }
+            },
+            "popular": {
+                "type": "array"
+            },
+            "Popular": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "integer"
+                    }
+                }
+            },
+            "Following": {
+                "type": "object",
+                "properties": {
+                    "country": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "occupation": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "last_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "display_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "created_on": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "company": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "fields": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "first_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "username": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "Image": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "following": {
+                        "description": "",
+                        "type": "array"
+                    }
+                }
+            },
+            "following": {
+                "type": "array"
+            },
+            "Appreciations": {
+                "type": "object"
+            },
+            "Appreciation": {
+                "type": "object",
+                "properties": {
+                    "timestamp": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "Project": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "appreciations": {
+                        "description": "",
+                        "type": "array"
+                    }
+                }
+            },
+            "appreciations": {
+                "type": "array"
+            },
+            "Users": {
+                "type": "object"
+            },
+            "User": {
+                "type": "object",
+                "properties": {
+                    "country": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "occupation": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "last_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "display_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "created_on": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "company": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "fields": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "first_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "username": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "Image": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "users": {
+                        "description": "",
+                        "type": "array"
+                    }
+                }
+            },
+            "users": {
+                "type": "array"
+            },
+            "Comments": {
+                "type": "object"
+            },
+            "Comment": {
+                "type": "object",
+                "properties": {
+                    "created_on": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "comment": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "User": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "comments": {
+                        "description": "",
+                        "type": "array"
+                    }
+                }
+            },
+            "comments": {
+                "type": "array"
+            },
+            "Followers": {
+                "type": "object"
+            },
+            "Follower": {
+                "type": "object",
+                "properties": {
+                    "country": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "occupation": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "last_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "display_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "created_on": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "company": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "fields": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "first_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "username": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "Image": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "followers": {
+                        "description": "",
+                        "type": "array"
+                    }
+                }
+            },
+            "followers": {
+                "type": "array"
+            },
+            "Collections": {
+                "type": "object"
+            },
+            "Collection": {
+                "type": "object",
+                "properties": {
+                    "modified_on": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "images": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "created_on": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "Stat": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "owners": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "Collection": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "images": {
+                "type": "array"
+            },
+            "owners": {
+                "type": "array"
+            },
+            "Unkown": {
+                "type": "object",
+                "properties": {
+                    "creatives_to_follow": {
+                        "description": "",
+                        "type": "array"
+                    }
+                }
+            },
+            "creatives_to_follow": {
+                "type": "array"
+            },
+            "Creatives_to_follow": {
+                "type": "object",
+                "properties": {
+                    "country": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "occupation": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "last_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "display_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "created_on": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "company": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "fields": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "first_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "username": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "Image": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            }
+        }
+    }
+}
