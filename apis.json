@@ -1,0 +1,101 @@
+{
+    "name": "Behance",
+    "description": "Use Behance to showcase and discover creative work. We're on a mission to empower the creative world to make ideas happen.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1309-behance.jpg",
+    "tags": [
+        "api provider",
+        "creative",
+        "graphic",
+        "have api",
+        "have swagger",
+        "images",
+        "marketplaces",
+        "profile",
+        "projects"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/behance\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "api.behance.net",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1309-behance.jpg",
+            "humanURL": "http:\/\/www.behance.net\/dev",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/api-behance-net.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/api-behance-net-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Behance",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1309-behance.jpg",
+            "humanURL": "http:\/\/www.behance.net\/dev",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/behance.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/behance-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "http:\/\/www.behance.net\/"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/blog.behance.net\/dev"
+        },
+        {
+            "type": "Blog RSS - Do Not",
+            "url": "http:\/\/feeds.feedburner.com\/behance\/vorr"
+        },
+        {
+            "type": "Blog RSS - Do Not",
+            "url": "http:\/\/feeds.feedburner.com\/BehanceDevBlog"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/behance"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/behance"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/behance"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1309-2019-09-04-07-28-49.json"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/Behance"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.behance.net\/dev"
+        }
+    ]
+}
