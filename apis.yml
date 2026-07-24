@@ -1,8 +1,24 @@
 aid: behance
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/behance.png
 name: Behance
-description: Behance is a company surfaced as a portfolio company of 500-global, union-square-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Behance is Adobe's online creative networking and portfolio platform where designers,
+  illustrators, photographers, and other creatives showcase, discover, and follow creative work through
+  project-based portfolios. Founded in 2005 by Matias Corea and Scott Belsky, it was acquired by Adobe in
+  2012 for roughly $150 million and is now tightly integrated with Adobe Creative Cloud and Adobe Portfolio.
+  Behance passed 24 million members by 2020. Adobe has since retired the former public Behance REST API, so
+  the platform no longer exposes a documented public developer program; this profile is maintained in the API
+  Evangelist network as a company/provider record.
 url: https://raw.githubusercontent.com/api-evangelist/behance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Portfolio
+- Creative Network
+- Design Community
+- Adobe
+- Creative Cloud
+- Content
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/behance-domain-security.yml
 - type: Website
-  url: https://behance.net
+  url: https://www.behance.net
+- type: Support
+  url: https://help.behance.net
+- type: TermsOfService
+  url: https://www.adobe.com/legal/terms.html
+- type: PrivacyPolicy
+  url: https://www.adobe.com/privacy.html
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
